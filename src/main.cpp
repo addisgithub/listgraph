@@ -1,10 +1,7 @@
 /**
  * @file main.cpp
- * @brief This is a graph project.
- * @details This is the long brief at the top of main.cpp.
- * @author Addis Bogale and Bona Tufa
+ * @author Addis Bogale 
  * @date 4/2/2021
- * 
  */
 
 #include <iostream>
@@ -146,8 +143,6 @@ int main()
     Graph test = Graph(value, 10);
 
     // Adding edge as shown in the example figure
-    
-    
     test.addEdge(value, 0, 4);
     test.printGraph(value, v);
     test.addEdge(value,1, 2);
